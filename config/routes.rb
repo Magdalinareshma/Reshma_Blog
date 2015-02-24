@@ -3,11 +3,8 @@ Rails.application.routes.draw do
   resources :blogs
 
   get "reshma" => "home#home"
-
   get "about" => "home#about"
-
   get "contact" => "home#contact"
-
   get "extras" => "home#extras"
 
   # The priority is based upon order of creation: first created -> highest priority.
